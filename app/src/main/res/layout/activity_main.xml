@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/ActivityTitle"
+        android:text="@string/app_name"
+        />
+    <Button
+        android:id="@+id/btnFormulario"
+        style="@style/ButtonPrimary"
+        android:text="@string/formulario"
+        android:onClick="openForm"
+        />
+    <Button
+        android:id="@+id/btnLista"
+        style="@style/ButtonPrimary"
+        android:text="@string/lista"
+        android:onClick="openList"
+        />
+    <Button
+        android:id="@+id/btnDatos"
+        style="@style/ButtonPrimary"
+        android:text="@string/datos"
+        android:onClick="openData"
+        />
+
+</LinearLayout>

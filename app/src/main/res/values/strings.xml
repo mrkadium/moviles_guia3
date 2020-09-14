@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Guia3</string>
+    <string name="lista">Lista</string>
+    <string name="formulario">Formulario</string>
+    <string name="datos">Datos</string>
+    <string name="guardar">Guardar</string>
+    <string name="edit_nombre">Ingresar nombre</string>
+    <string name="label_nombre">Nombre:</string>
+    <string name="error">Debe ingresar un nombre</string>
+    <string name="success">Registro guardado correctamente</string>
+    <string name="no_data">No hay registros en la lista</string>
+    <string name="mi_nombre">Mario Adalberto Rivera Olivo</string>
+    <string name="mi_codigo">R016&#8211;I04&#8211;001</string>
+</resources>
